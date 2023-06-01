@@ -30,7 +30,7 @@ def count_failed_logins_in_hour(log_file_path, hour):
     return count
 
 # Especificamos la ruta al archivo de registros de autenticación
-log_file_path = '/var/log/secure'
+log_file_path = '/var/log/auth.log'
 
 # Obtenemos la hora actual
 now = datetime.now()
